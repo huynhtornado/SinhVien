@@ -1,1 +1,15 @@
-import java.unit.*
+import java.util.*;
+public class SinhVien{
+	String hoTen;
+	int sDT;
+	public SinhVien(String ht, String sdt){
+		this.hoTen = ht;
+		this.sDT =sdt;
+	}
+	public void setHT(String ht){
+		this.hoTen =ht;
+	}
+	public String getHT(){
+		return hoTen;
+	}
+}
