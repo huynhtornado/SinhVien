@@ -2,6 +2,10 @@ import java.util.*;
 public class SinhVien{
 	String hoTen;
 	int sDT;
+	public SinhVien(String hoTen, int sdt){
+		this.hoTen = hoTen;
+		this.sDT = sdt;
+	}
 	public SinhVien(String ht, String sdt){
 		this.hoTen = ht;
 		this.sDT =sdt;
@@ -12,4 +16,5 @@ public class SinhVien{
 	public String getHT(){
 		return hoTen;
 	}
+	
 }
