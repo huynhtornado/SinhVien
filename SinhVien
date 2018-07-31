@@ -12,5 +12,4 @@ public class SinhVien{
 	public String getHT(){
 		return hoTen;
 	}
-	hello My girlfriend!
 }
