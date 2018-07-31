@@ -16,5 +16,6 @@ public class SinhVien{
 	public String getHT(){
 		return hoTen;
 	}
-	
+	public void toString(){
+	} 
 }
